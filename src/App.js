@@ -2,7 +2,7 @@ import React, { useEffect,useState } from "react";
 import './App.css';
 import SearchIcon from './Search.svg';
 import MovieCard from "./MovieCard";
-const API_KEY = "http://www.omdbapi.com/?i=tt3896198&apikey=de2a2181";
+const API_KEY = "https://www.omdbapi.com/?i=tt3896198&apikey=de2a2181";
 
 const App = ()=>{
     const [movies, setMovies] = useState();
